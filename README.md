@@ -1,6 +1,6 @@
 #BootLite - Bootstrap Grid
 
-Tha Bootstrap grid you know and love without the bloat. 
+The Bootstrap grid you know and love without the bloat. 
 
 ##Project Includes
 
