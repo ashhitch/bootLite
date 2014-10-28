@@ -1,0 +1,30 @@
+{
+  "name": "bootLite",
+  "homepage": "https://github.com/ashhitch/bootLite.git",
+  "authors": [
+    "Ash Hitchcock <hello@ashleyhitchcock.co.uk>"
+  ],
+  "description": "Grid Only version of bootstrap",
+  "keywords": [
+    "css",
+    "less",
+    "mobile-first",
+    "responsive",
+    "front-end"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "site",
+    "experiments",
+    "gh-pages",
+    "tmp"
+  ],
+  "devDependencies": {
+    "bootstrap": "3"
+  }
+}
