@@ -1,4 +1,4 @@
-/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html
 {
     font-family: sans-serif;
@@ -19,6 +19,7 @@ footer,
 header,
 hgroup,
 main,
+menu,
 nav,
 section,
 summary
@@ -47,7 +48,7 @@ template
 }
 a
 {
-    background: transparent;
+    background-color: transparent;
 }
 a:active,
 a:hover
@@ -231,9 +232,12 @@ th
 {
     padding: 0;
 }
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print
 {
-    *
+    *,
+  *:before,
+  *:after
     {
         color: #000 !important;
         background: transparent !important;
@@ -254,8 +258,8 @@ th
     {
         content: ' (' attr(title) ')';
     }
-    a[href^='javascript:']:after,
-  a[href^='#']:after
+    a[href^='#']:after,
+  a[href^='javascript:']:after
     {
         content: '';
     }
@@ -299,11 +303,6 @@ th
     {
         display: none;
     }
-    .table td,
-  .table th
-    {
-        background-color: #fff !important;
-    }
     .btn > .caret,
   .dropup > .btn > .caret
     {
@@ -316,6 +315,11 @@ th
     .table
     {
         border-collapse: collapse !important;
+    }
+    .table td,
+  .table th
+    {
+        background-color: #fff !important;
     }
     .table-bordered th,
   .table-bordered td
@@ -389,7 +393,6 @@ img
 {
     display: block;
 
-    width: 100% \9;
     max-width: 100%;
     height: auto;
 }
@@ -403,7 +406,6 @@ img
 
     display: inline-block;
 
-    width: 100% \9;
     max-width: 100%;
     height: auto;
     padding: 4px;
@@ -1407,10 +1409,6 @@ hr
 .affix
 {
     position: fixed;
-
-    -webkit-transform: translate3d(0, 0, 0);
-         -o-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
 }
 @-ms-viewport {
     width: device-width;
