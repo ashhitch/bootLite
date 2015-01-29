@@ -24,6 +24,9 @@ Four quick start options are available:
 - Install with [npm](https://www.npmjs.org): `npm install`.
 - Build with [Grunt](http://gruntjs.com/): `grunt`
 
+## Bower 
+bower install boot-lite
+
 ###Roadmap
 * Tidy all code
 * Create examples
